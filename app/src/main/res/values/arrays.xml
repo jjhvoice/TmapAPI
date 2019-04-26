@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="function">
+        <item>지도 생성하기</item>
+        <item>지도 이벤트 설정하기</item>
+        <item>지도 중심점 및 레벨 변경하기</item>
+        <item>마커 생성하기</item>
+        <item>선 그리기</item>
+        <item>Polygon 그리기</item>
+        <item>Circle 그리기</item>
+        <item>자동차 경로안내</item>
+        <item>리버스 지오코딩</item>
+        <item>명칭(POI) 통합 검색</item>
+        <item>TmapApp 실행</item>
+        <item>TmapApp 길안내</item>
+        <item>TmapApp 지도이동</item>
+        <item>TmapApp 안전운전도우미</item>
+        <item>TmapApp 통합검색</item>
+        <item>TmapApp 집으로</item>
+        <item>TmapApp 회사로</item>
+        <item>TmapApp 길안내(경유지포함)</item>
+    </string-array>
+
+    <string-array name="activity">
+        <item>com.example.test.tmapapi.MapProduction_Activity</item>
+        <item>com.example.test.tmapapi.MapEventSetup_Activity</item>
+        <item>com.example.test.tmapapi.MapSetup_Activity</item>
+        <item>com.example.test.tmapapi.MarkerProduction_Activity</item>
+        <item>com.example.test.tmapapi.LineDraw_Activity</item>
+        <item>com.example.test.tmapapi.PolygonDraw_Activity</item>
+        <item>com.example.test.tmapapi.CircleDraw_Activity</item>
+        <item>com.example.test.tmapapi.RouteGuidance_Activity</item>
+        <item>com.example.test.tmapapi.ReverseGeocoding_Activity</item>
+        <item>com.example.test.tmapapi.POIUnifiedSearch_Activity</item>
+        <item>com.example.test.tmapapi.TmapAppExecute_Activity</item>
+        <item>com.example.test.tmapapi.TmapAppRouteGuidance_Activity</item>
+        <item>com.example.test.tmapapi.TmapAppMapMove_Activity</item>
+        <item>com.example.test.tmapapi.TmapAppSafeDrivingHelper_Activity</item>
+        <item>com.example.test.tmapapi.TmapAppUnifiedSearch_Activity</item>
+        <item>com.example.test.tmapapi.TmapAppGoHome_Activity</item>
+        <item>com.example.test.tmapapi.TmapAppGoCompany_Activity</item>
+        <item>com.example.test.tmapapi.TmapAppWaypointRouteGuidance_Activity</item>
+    </string-array>
+</resources>

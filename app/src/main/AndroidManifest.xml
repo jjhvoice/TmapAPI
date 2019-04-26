@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test.tmapapi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MapProduction_Activity"></activity>
+        <activity android:name=".MapEventSetup_Activity"></activity>
+        <activity android:name=".MapSetup_Activity"></activity>
+        <activity android:name=".MarkerProduction_Activity"></activity>
+        <activity android:name=".LineDraw_Activity"></activity>
+        <activity android:name=".PolygonDraw_Activity"></activity>
+        <activity android:name=".CircleDraw_Activity"></activity>
+        <activity android:name=".RouteGuidance_Activity"></activity>
+        <activity android:name=".ReverseGeocoding_Activity"></activity>
+        <activity android:name=".POIUnifiedSearch_Activity"></activity>
+        <activity android:name=".TmapAppExecute_Activity"></activity>
+        <activity android:name=".TmapAppRouteGuidance_Activity"></activity>
+        <activity android:name=".TmapAppMapMove_Activity"></activity>
+        <activity android:name=".TmapAppUnifiedSearch_Activity"></activity>
+        <activity android:name=".TmapAppGoHome_Activity"></activity>
+        <activity android:name=".TmapAppGoCompany_Activity"></activity>
+        <activity android:name=".TmapAppWaypointRouteGuidance_Activity"></activity>
+        <activity android:name=".TmapAppSafeDrivingHelper_Activity"></activity>
+    </application>
+
+</manifest>
